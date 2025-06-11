@@ -30,5 +30,9 @@ minikube kubectl -- version
 - kubectl apply -f pg-admin.yml
 - kubectl get all
 - minikube service pg-admin-service
+- kubectl apply -f backend-secrets.yml
+- kubectl apply -f backend.yml
+- minikube service backend-service
 
-
+## 5) Para pulgar el cluster y eliminar toda información
+- minikube delete --all
