@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: pg-admin
-        #image: dpage/pgadmin4:9.4.0
-        image: dpage/pgadmin4:6.17
+        image: dpage/pgadmin4:9.4.0
+        #image: dpage/pgadmin4:6.17
         ports:
         - containerPort: 80
         env:
